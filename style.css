@@ -1,0 +1,20 @@
+/*
+
+Theme Name: Amanda Rincon Blank Theme
+Theme URI: Amanda Rincon Blank
+Author: Amanda Rincon
+Description: Blank themes for WEI course
+Version: 0.1
+License: Open
+Text Domain: amanda_rincon_blank_template
+
+*/
+
+@import url("css/normalize.css");
+@import url("css/skeleton.css");
+
+*{
+    color: #000000;
+    font-size: 14px;
+    line-height: 16px;
+}
