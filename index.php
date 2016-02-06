@@ -5,6 +5,8 @@
 	<meta charset="utf-8">
     <title>Web Interactivity and Engagement</title>
 
+	<link rel="stylesheet" type="text/css" href="style.css" />
+
 </head>
 <body>
     <h1>Web Interactivity and Engagement</h1>
