@@ -2,7 +2,7 @@
 
     <div class="row">
         <div class="three columns">
-			<h2>Sidebar</h2>
+			<?php get_sidebar(); ?>
 		</div>
 		<div class="nine columns">
             <?php if (have_posts()) :

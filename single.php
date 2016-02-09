@@ -3,7 +3,7 @@
 	<section class="row">
 
 		<!-- BEGIN SIDEBAR -->
-		<div class="three columns">
+		<div class="two columns">
 			<?php get_sidebar(); ?>
 		</div>
 		<!-- END SIDEBAR -->
