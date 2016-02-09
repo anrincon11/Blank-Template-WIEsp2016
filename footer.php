@@ -1,11 +1,18 @@
+<!-- BEGIN FOOTER -->
 	<footer class="row">
-		<div class="twelve columns">
-			<p>Footer Stuff...</p>
+		<div class="four columns">
+			<?php dynamic_sidebar('footer-left'); ?>
+		</div>
+		<div class="four columns">
+			<?php dynamic_sidebar('footer-middle'); ?>
+		</div>
+		<div class="four columns">
+			<?php dynamic_sidebar('footer-right'); ?>
 		</div>
 	</footer>
-	</div>
+</div>
 
-	<?php wp_footer(); ?>
+<?php wp_footer(); ?>
 
 </body>
-</head>
+</html>

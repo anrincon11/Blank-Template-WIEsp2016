@@ -2,11 +2,11 @@
 
 	<section class="row">
 
-		<!-- BEGIN SIDEBAR -->
+	<!-- BEGIN SIDEBAR -->
 		<div class="two columns">
 			<?php get_sidebar(); ?>
 		</div>
-		<!-- END SIDEBAR -->
+	<!-- END SIDEBAR -->
 
 		<div class="eight columns">
 			<?php
