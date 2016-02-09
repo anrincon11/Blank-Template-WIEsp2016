@@ -15,14 +15,15 @@
 					the_post();?>
 					<h3><?php the_title(); ?></h3>
 					<?php the_content();
-				} // end while
-			} // end if
+				end while
+			end if
 			?>
 		</div>
 
 		<div class="two columns">
 			&nbsp;
 		</div>
+
 	</section>
 
 <?php get_footer(); ?>
