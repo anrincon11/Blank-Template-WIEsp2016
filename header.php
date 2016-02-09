@@ -13,7 +13,7 @@
 	<div class="container">
 		<header class="row">
 			<div class="twelve columns">
-				<h1><?php bloginfo('name'); ?></h1>
+				<h1><a href="<?php bloginfo('url'); ?>"><?php bloginfo('name'); ?></a></h1>
 				<h2><?php bloginfo('description'); ?></h2>
 			</div>
 		</header>
