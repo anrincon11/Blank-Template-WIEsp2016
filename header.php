@@ -3,7 +3,7 @@
 <head>
 
 	<meta charset="utf-8">
-    <title>Web Interactivity and Engagement</title>
+    <title><?php bloginfo('name'); ?></title>
 <?php wp_head(); ?>
 	<link rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_url'); ?>" />
 

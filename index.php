@@ -1,9 +1,6 @@
 <?php get_header(); ?>
 
 		<section class="row">
-			<div class="three columns">
-				<h3>Sidebar</h3>
-			</div>
 			<div class="nine columns">
 				<?php
 					if ( have_posts() ) {
@@ -14,6 +11,10 @@
 					    } // end while
 					} // end if
 				?>
+			</div>
+			<div class="three columns">
+				<h3>Sidebar</h3>
+				<p>Sidebar</p>
 			</div>
 		</section>
 
