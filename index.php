@@ -1,19 +1,20 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
+<?php get_header(); ?>
 
-	<meta charset="utf-8">
-    <title>Web Interactivity and Engagement</title>
+		<section class="row">
+			<div class="three columns">
+				<h3>Sidebar</h3>
+			</div>
+			<div class="nine columns">
+				<?php
+					if ( have_posts() ) {
+					    while ( have_posts() ) {
+					        the_post(); ?>
+						<h3><?php the_title(); ?></h3>
+						<?php the_content();
+					    } // end while
+					} // end if
+				?>
+			</div>
+		</section>
 
-	<link rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_url'); ?>" />
-
-</head>
-<body>
-    <h1>Web Interactivity and Engagement</h1>
-    <h2>Spring 2016</h2>
-
-    <p>This is where the blog will go.</p>
-
-
-</body>
-</head>
+<?php get_footer(); ?>
