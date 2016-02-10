@@ -68,3 +68,8 @@ h6 {
 .blank-menu-header ul li a:hover {
     color: #cccccc;
 }
+
+.single-post-thumbnail img {
+	width: 100%;
+	height: auto;
+}

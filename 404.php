@@ -5,8 +5,8 @@ get_header(); ?>
 
     <div class="row">
         <div class="eight columns">
-            <h1>Not Found</h1>
-            <h2>This is somewhat embarrassing, isn't it?</h2>
+            <h2>Not Found</h2>
+            <h3>This is somewhat embarrassing, isn't it?</h3>
             <p>It looks like nothing was found at this location. Maybe try a search?</p>
 
             <h2>Try searching for what you need:</h2>
