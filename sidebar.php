@@ -1,3 +1,3 @@
-<h2>Sidebar Text</h2>
+<h2>Sidebar</h2>
 
 <?php dynamic_sidebar('first-widget'); ?>
