@@ -2,11 +2,9 @@
 
 	<section class="row">
 
-	<!-- BEGIN SIDEBAR -->
 		<div class="two columns">
-			<?php get_sidebar(); ?>
+			<br />
 		</div>
-	<!-- END SIDEBAR -->
 
 		<div class="eight columns">
 			<?php
@@ -21,7 +19,7 @@
 		</div>
 
 		<div class="two columns">
-			&nbsp;
+			<br />
 		</div>
 
 	</section>
