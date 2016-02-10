@@ -3,7 +3,7 @@
 
 get_header(); ?>
 
-<div class="row">
+<section class="row">
     <div class="twelve columns">
         <?php if ( have_posts() ) : ?>
             <h2>Archives</h2>
@@ -18,15 +18,19 @@ get_header(); ?>
                 </h2>
                 <?php the_excerpt(); ?>
             <?php endwhile; ?> <!-- End Loop -->
+		<?php else: ?>
+			<p>Sorry, no posts matched your criteria.</p>
         <?php endif; ?>
     </div>
-</div>
+</section>
 <div class="row">
-    <div class="twelve columns">
+    <div class="six columns">
         <h2>Archives by Month:</h2>
         <ul>
             <?php wp_get_archives('type=monthly'); ?>
         </ul>
+	</div>
+	<div class="six columns">
         <h2>Archives by Category:</h2>
         <ul>
              <?php wp_list_categories(); ?>
