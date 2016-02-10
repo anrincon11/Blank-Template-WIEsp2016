@@ -48,8 +48,7 @@ h6 {
 /*--- Menu --- */
 
 .blank-menu-header {
-    text-align: right;
-    margin-top: 40px;
+
 }
 .blank-menu-header ul {
     margin: 0;
@@ -65,7 +64,6 @@ h6 {
     margin: 4px;
     padding: 5px 0px 5px 40px;
     font-weight: 300;
-    font-size: 1.1rem;
 }
 .blank-menu-header ul li a:hover {
     color: #cccccc;
