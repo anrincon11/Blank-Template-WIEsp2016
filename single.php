@@ -21,9 +21,8 @@
 					}
 					?>
 					<?php the_content();
-				end while
-			end if
-			?>
+				endwhile;
+			endif; ?>
 		</div>
 
 		<div class="two columns">
